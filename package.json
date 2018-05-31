@@ -1,0 +1,49 @@
+{
+  "name": "oktest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "clean:android": "cd android && gradlew clean && cd .. && react-native run-android",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "apisauce": "^0.14.3",
+    "luxon": "^1.2.0",
+    "native-base": "2.3.1",
+    "prop-types": "^15.6.1",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-easy-grid": "^0.1.17",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "2.0.0",
+    "react-redux": "^5.0.7",
+    "redux": "3.7.2",
+    "redux-form": "^7.3.0",
+    "redux-saga": "^0.16.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "22.4.3",
+    "pre-commit": "^1.2.2",
+    "react-test-renderer": "16.3.1",
+    "@storybook/react-native": "^3.4.5",
+    "@storybook/addon-actions": "^3.4.5",
+    "@storybook/addon-links": "^3.4.5",
+    "@storybook/addons": "^3.4.5",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react-dom": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
